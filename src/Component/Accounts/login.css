@@ -1,0 +1,56 @@
+/* Styling for the login container */
+.login {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #9be8d8;
+}
+
+.login label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
+  color: #fff;
+  background: none;
+  border: 1px solid;
+}
+
+.login small {
+  color: red;
+}
+
+.login button {
+  background-color: #78c1f3;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80%;
+}
+
+.login button:hover {
+  background-color: #45a049;
+}
+.BTN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.BTN hr {
+  margin: 10px;
+  color: #45a049;
+  width: 80%;
+}

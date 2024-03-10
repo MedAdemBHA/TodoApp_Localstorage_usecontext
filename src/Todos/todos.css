@@ -1,0 +1,71 @@
+.TodoWrapper {
+  background: #9be8d8;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 70%;
+  margin: auto;
+  min-width: 630px;
+}
+
+.todo-btn {
+  background: #78c1f3;
+  color: #ffffff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.App {
+  text-align: center;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  padding: 0.75rem 1rem;
+  color: #fff;
+}
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #78c1f3;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.icon {
+  display: flex;
+  gap: 13px;
+}
+/* p {
+  padding: 0;
+} */
+.todos {
+  overflow-y: auto;
+  padding: 20px;
+  max-height: 360px;
+}

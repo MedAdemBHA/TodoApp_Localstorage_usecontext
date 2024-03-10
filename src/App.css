@@ -1,0 +1,25 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 0;
+  padding: 0rem;
+  text-align: center;
+} */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navb {
+  padding: 12px;
+  background: rgb(109, 100, 232);
+}
+.navb ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  gap: 30px;
+}
+.navb ul li a {
+  text-decoration: none;
+  color: wheat;
+}
